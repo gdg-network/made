@@ -46,7 +46,7 @@ if(state === "new") {
     `;
     document.querySelector(".termin").innerHTML = `
         <div style="line-height: 1.6;">
-            Welcome to the Terbium Terminal type <code class="command">help</code> for available commands and keybindings or<br> <code class="command">-h <mark class="codeMark">command</mark></code> for a commands usage.
+            Welcome to the gdg Terminal type <code class="command">help</code> for available commands and keybindings or<br> <code class="command">-h <mark class="codeMark">command</mark></code> for a commands usage.
         </div>
         <div class="linebreak"></div>
         <div class="warning">
@@ -93,11 +93,11 @@ command.addEventListener("keydown", (e) => {
                 <h3>Commands</h3>
                 <p><code class="command">sp</code> --> Set a new password or leave it blank to remove it</p>
                 <p><code class="command">open</code> --> Opens your specified app that is available by url loading</p>
-                <p><code class="command">help</code> --> this command</p>
+                <p><code class="command">help</code> --> what did u just use?</p>
                 <p><code class="command">-h</code> --> Shows the usage of a command</p>
                 <p><code class="command">echo</code> --> echo your text</p>
-                <p><code class="command">logout</code> --> logout/restart of Terbium</p>
-                <p><code class="command">shutdown</code> --> shutdown Terbium</p>
+                <p><code class="command">logout</code> --> logout/restart of gdg</p>
+                <p><code class="command">shutdown</code> --> shutdown gdg</p>
                 <p><code class="command">math</code> --> Do some math</p>
                 <p><code class="command">theme</code> --> Change the theme</p>
                 <div class="linebreak"></div>
